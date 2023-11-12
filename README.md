@@ -15,6 +15,7 @@ Gadget个人理解 是一个子电路，封装实现了若干Var，比如Blake�
 
 ## 核心
 **要实现一个trait impl<F:Field> ConstraintSynthesizer<F> for Circuit<F>{**
+    
     fn generate_constraints(self,cs: ConstraintSystemRef<F>,) 
     -> Result<(), SynthesisError> {
     Ok(())
