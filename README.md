@@ -11,7 +11,7 @@ Ark 对于初学者 没有一些例子去仿写学习还是很难受的，分别
 在Arkwork各种库里，封装了一些Var，比如FpVar。当调用Fpvar封装好的一些函数，可以忽略掉底层的原生约束，因为已经封装在了函数里面
 
 ## Gadget
-Gadget个人理解 是一个子电路，封装实现了若干Var，比如Blake哈希
+Gadget个人理解 是一个子电路，封装实现了若干Var，比如ark_crypto_primitives-prf-Blake哈希
 
 ## 核心
 **要实现一个trait impl<F:Field> ConstraintSynthesizer<F> for Circuit<F>{**
